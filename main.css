@@ -1,0 +1,208 @@
+
+/***************************
+FONT DECLARATIONS
+***************************/
+@font-face {
+	font-family: BebasNeue;
+	src: url('fonts/BebasNeue.eot');
+	src: local('☺'), url('fonts/BebasNeue.woff') format('woff'), url('fonts/BebasNeue.ttf') format('truetype'), url('fonts/BebasNeue.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/***************************
+GLOBAL DECLARATIONS
+***************************/
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	/* default */
+	background: url('images/001.jpg') no-repeat center center fixed;
+	
+	/* CSS3 */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1,h2 {
+	font-weight: normal;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/***************************
+CUSTOM SITE DECLARATIONS
+***************************/
+main
+{
+	width: 500px;
+	height: auto;
+	background: black;
+	background: rgba(0,0,0,0.8);
+	padding: 25px;
+
+	/* positioning */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -275px;
+	margin-top: -125px;
+
+	color: white;
+	text-align: center;
+}
+
+	.blue {
+		color: #00f0ff;
+	}
+
+	h1 {
+		/* reset */
+		margin: -11px 0 0 0;
+		padding: 0;
+
+		/* styles */
+		font-size: 3em;
+		font-family: BebasNeue, Arial, Helvetica, sans-serif;
+		letter-spacing: .04em;
+	}
+
+
+		.lgr {
+			font-size: 1.2em;
+		}
+
+	h2 {
+		/* reset */
+		margin: 0;
+		padding: 0;
+
+		/* positioning */
+		margin-top: -15px;
+
+		text-transform: uppercase;
+		font-size: 1.65em;
+
+	}
+
+	p
+	{
+		font-size: .8em;
+		margin: 10px 0 20px;
+		line-height: 1.5em;
+	}
+
+	p:last-child
+	{
+		margin-bottom: 0;
+	}
+
+	a.main-btn
+	{
+		/* reset */
+		text-decoration: none;
+		*display: inline;
+		display: inline-block;
+
+		padding: 10px 2%;
+		color: black;
+		font-weight: bold;
+		width: 25%;
+		margin: 0 1.65%;
+
+		/* CSS3 */
+		background: #00f0ff;
+		background: -webkit-linear-gradient(#00f0ff,#1ad6e2); /* For Safari 5.1 to 6.0 */
+  		background: -o-linear-gradient(#00f0ff,#1ad6e2); /* For Opera 11.1 to 12.0 */
+  		background: -moz-linear-gradient(#00f0ff,#1ad6e2); /* For Firefox 3.6 to 15 */
+  		background: linear-gradient(#00f0ff,#1ad6e2); /* Standard syntax */
+	}
+
+		a.main-btn:hover
+		{
+			/* CSS3 */
+			background: #1ad6e2;
+			background: -webkit-linear-gradient(#1ad6e2,#00f0ff); /* For Safari 5.1 to 6.0 */
+	  		background: -o-linear-gradient(#1ad6e2,#00f0ff); /* For Opera 11.1 to 12.0 */
+	  		background: -moz-linear-gradient(#1ad6e2,#00f0ff); /* For Firefox 3.6 to 15 */
+	  		background: linear-gradient(#1ad6e2,#00f0ff); /* Standard syntax */
+		}
+
+	a.main-btn.linked-in {
+		background: #00f0ff url('images/LinkedIn-Logo-2CRev.png') no-repeat center center;
+		background-size: 75%;
+		text-indent: -9999px
+	}
+
+#location
+{
+	position: absolute;
+	bottom: 25px;
+	right: 25px;
+	color: white;
+	font-size: .8em;
+	background: black;
+	background: rgba(0,0,0,0.8);
+	padding: 10px;
+	color:white;
+}
+
+@media (max-width: 640px) {
+	main {
+		/* reset */
+		top: 0;
+		left: 0;
+		margin-left: 0;
+		margin-top: 0;
+		position: relative;
+
+
+		width: 70%;
+		padding-left: 7.5%;
+		padding-right: 7.5%;
+		margin-left: 7.5%;
+		margin-right: 7.5%;
+		margin-top: 100px;
+		height: auto;
+	}
+
+
+	h1 {
+		font-size: 2.23em;
+	}
+
+	h2 {
+		font-size: 1.20em;
+		margin-top: -10px;
+	}
+
+	p {
+		font-size: .9em;
+	}
+
+	#location {
+		display: none;
+	}
+
+	a.main-btn {
+		display: block;
+		width: 90%;
+		margin: 0 0 10px 0;
+		padding: 10px 5%;
+	}
+
+	a.main-btn.linked-in {
+		background-size: 28%;
+	}
+
+}
