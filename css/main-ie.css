@@ -1,0 +1,14 @@
+.cycle
+{	border: 1px solid red; }
+
+.navigation ul
+{	width: 136px; }
+
+.tabs.ui-tabs .ui-tabs-nav li.ui-state-active a
+{	background: white; }
+
+.tabs.ui-tabs .ui-tabs-nav li a
+{	background: url(../images/bg-ie.png); }
+
+span.white.whiteBox.noShadow, span.white.circle
+{	background: url(../images/circle-white-sm.png); }

@@ -1,0 +1,132 @@
+/** CSS Document **/
+
+/*** PopUp Styles ***/
+
+#main-pop
+	{	height: 220px; width: 554px; margin: 10px 0 0 20px; background-repeat: no-repeat;
+		font-weight: none;}
+		
+#main-pop img
+	{	padding-left: 110px;}
+	
+#main-pop p
+	{	font-size: 14px; font-weight: normal;}
+	
+#main-pop a, #main-pop a:hover
+	{	color: color: #4c336c; }
+
+#join, #member
+	{	width: 252px; height: auto; padding: 25px 0 0 25px; float: left; text-align: center; font-size: 12px; font-weight: normal;}
+	
+#join img, #member img
+	{	padding: 0 0 5px 0;}
+	
+#dotted
+	{ 	float: left; width: 1px; height: 290px; background: url('../images/blueberry/dottedlines.jpg'); background-repeat: repeat-y; }
+	
+#member
+	{	padding: 25px 0 0 10px;}
+
+#member fieldset
+	{	padding-top: 6px;}
+	
+fieldset
+	{	border: none; color: #fff; padding: 0; margin: 0;}
+	
+fieldset .row
+	{	width: 250px; height: 28px; float: left; display: block;}
+	
+fieldset .left, .right
+	{	float: left; height: 25px; font-weight: bold; font-size: 11px; line-height: 1em;}
+	
+fieldset .left
+	{ 	width: 60px;}
+	
+fieldset .right
+	{	width: 150xpx;}
+
+html
+	{	font-size: 11px; color: #4c336c; font-family: Arial, Helvetica, sans-serif; font-weight: bold;}
+
+#container
+	{	width: 453px; height: 1050px; position: absolute;
+		background: url('../images/blueberry/bb-bg.jpg'); background-repeat: no-repeat; background-color: #b6dbf4; }
+		
+#products, #noCoupon-products
+	{	width: 424px; height: 281px; margin: 190px auto 0 auto; position: relative;
+		background: url('../images/blueberry/product-bg.jpg'); background-repeat: no-repeat; }
+	
+#noCoupon-products
+	{	background: url('../images/blueberry/noCoupon-bg.jpg'); background-repeat: no-repeat;}
+	
+#products ul,  #noCoupon-products ul
+	{	margin: 0 0 1px 0; padding: 0; text-align: center; }
+	
+#products ul li,  #noCoupon-products ul li
+	{	 padding: 0; }
+		
+#products a,  #noCoupon-products a
+	{	margin: 0 0 0 140px; padding: 0;}
+	
+#scroll-wrapper 
+	{	width: 433px; height: 290px; background: url('../images/blueberry/recipes-bg.jpg'); background-repeat: no-repeat; margin-top: 20px; padding: 0 0 0 27px; float: left; clear: both; }
+	
+#title
+	{	height: 40px; margin: 0 auto; width: 400px; text-align: right;}
+#large	
+	{	width:	330px; padding: 20px 0 0 15px; float: left;}
+
+#recipeInfo
+	{	width: 453px; height: 240px; font-weight: normal; font-size: 11px; background: url('../images/blueberry/info-bg.jpg'); background-repeat: no-repeat; float: left; clear: both; padding: 0 0 25px 0;}
+
+#recipeInfo div
+	{	width: 345px; height: 180px; margin: 0 auto; margin: 20px auto 0 auto; padding: 0 10px 0 0; overflow-x:hidden; overflow-y: scroll;}
+	
+#recipeInfo h4
+	{	text-align: center; font-size: 12px; padding: 0; margin: 0;}
+
+#recipeInfo a
+	{	float: right; margin-right: 75px;}
+
+#intro 
+	{	padding-bottom: 10px;}
+
+#slider
+	{	width: 60px; height: 174px; float: left; margin: 0;}
+	
+	
+.scroll {
+	overflow: hidden;
+	width: 70px;
+	height: 169px;
+    margin: 0 auto;
+}
+
+.scrollContainer {
+	padding-left: 5px;
+}
+
+.scrollContainer div.panel {
+    padding: 0 0 5px 0;
+    width: 60px;
+    height: 53px;
+    float: left; clear: both;
+}
+
+.inside img {
+	display: block;
+	margin: 0 0 10px 0;
+}
+
+.arrows
+{
+	height: 20px; width: 40px; padding: 2px 0 0 15px;
+}
+
+.scrollButtons {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}

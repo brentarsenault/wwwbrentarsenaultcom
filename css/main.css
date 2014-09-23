@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/** www.brentarsenault.com | version 2 	**/
+/** Last Updated: April 15, 2010		**/
+
+html
+	{	font-family: Arial,sans-serif; font-size: 12px; color: #fff;}
+	
+body
+	{	background: url('../images/overall.gif'); margin: 0 auto 0 auto;}
+	
+ul, h4
+	{	padding: 0; margin: 0; list-style-type: none;}
+	
+li h3, object
+	{	padding: 0; margin: 0;}
+	
+h2
+	{	font-weight: 100; font-size: 14px; text-transform: uppercase;}
+	
+h4
+	{	font-size: 14px; font-weight: normal;}
+		
+a	
+	{	color: #fff; text-decoration: none;}
+	
+.prev-next
+	{	margin: 25px auto 0 auto; padding: 10px 20px; height: 5px; width: 960px; background: url('../images/bg-slice.png'); text-align: right;}
+	
+a span 
+	{	color: #00f0ff; margin: 3px 0 0 0;}	
+	
+#resume, .displayGrid a
+	{	background-color: #00f0ff; color: #000; padding: 0 3px;}
+	
+	
+.clearLeft
+	{	clear: left;	}
+	
+#stuck
+	{	 width: 100%; height: 75px; background: url('../images/bg.gif') repeat-x;
+	}
+	
+#stuck-inside
+	{	width: 1000px; height: 65px; padding: 10px 0; margin: 0 auto;
+	}	
+	
+#stuck-inside #left, #right
+	{	float: left; width: 500px;
+	}
+	
+#right .rightside
+	{	float: right; height: 20px; clear: both;
+	}
+	
+.rightside a:hover
+	{	text-decoration: underline;
+	}
+	
+#site-container
+	{	width: 1000px; height: auto; margin: 25px auto 0 auto; display: block;}
+	
+.holder
+	{	width: 1000px; margin: 0 auto; display: block; height: auto;
+	}
+	
+#featured
+	{	width: 994px; height: 294px; z-index: 1; margin: 0; border: 3px solid #cacaca; padding: 0;}
+
+#featured-nav a
+	{	padding: 0 10px;}
+	
+.workgrid
+	{	width: 900px; height: 100%; padding: 0 50px; margin: 0; float: left; background: url('../images/bg-slice.png') repeat-y;
+	}
+	
+.workgrid h3
+	{	padding: 0 13px;
+	}
+
+.workgrid img
+	{	float: left; padding: 10px 0;
+	}
+	
+.workgrid .first
+	{	padding-top: 30px;
+	}	
+	
+.workgrid h4
+	{	font-size: 10px; color: #cacaca; padding: 3px 0 15px 0;
+	}
+	
+.grids
+	{	width: 200px; padding: 0 12px 0 13px; margin: 0; float: left; display: inline;
+	}
+	
+.grids img, .grid-right img
+	{	padding: 0; margin: 0;
+	}
+	
+.footer
+	{	padding: 25px 0 15px 0; text-align: center; background: url('../images/bg-slice.png') repeat-y; font-size: 9px;
+	}
+	
+/**************************************
+************** Inside page
+**************************************/
+
+.portfolioHolder
+	{	width: 1000px; height: auto; margin: 0 auto;
+	}
+	
+.displayGrid
+	{	width: 450px; height: 500px; padding: 10px 25px; float: left; background: url('../images/bg-slice.png') repeat-y;
+	}
+	
+.displayGrid p a span
+	{	color: #000;
+	}
+	
+.displayGrid p span
+	{	color: #00f0ff;
+	}
+	
+#nav 
+	{	float: left; color: #ff0000; z-index: 1; 
+	}
+	
+#workfeatures
+	{ 	z-index: 1;
+	}
+	
+#nav a
+	{	margin: 0 5px 0 0; background-color: transparent; padding: 0;
+	}
+
+#nav a img
+	{	padding: 6px; height: 25px; width: 25px; background-color: transparent;
+	}
+
+#nav a.activeSlide img
+	{	padding: 5px; margin: 0; border: 1px solid #fff; background-color: transparent;
+	}

@@ -1,0 +1,7 @@
+[16-Sep-2010 15:08:14] PHP Warning:  fopen(content.php) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home7/grannyco/public_html/brentarsenault/beta/work.php on line 8
+[16-Sep-2010 15:09:07] PHP Warning:  fopen(content.php) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home7/grannyco/public_html/brentarsenault/beta/work.php on line 8
+[16-Sep-2010 15:09:12] PHP Warning:  fopen(content.php) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home7/grannyco/public_html/brentarsenault/beta/work.php on line 8
+[16-Sep-2010 16:46:24] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home7/grannyco/public_html/brentarsenault/beta/control/runner.php on line 14
+[16-Sep-2010 16:49:32] PHP Parse error:  syntax error, unexpected '=' in /home7/grannyco/public_html/brentarsenault/beta/control/runner.php on line 10
+[16-Sep-2010 16:49:51] PHP Parse error:  syntax error, unexpected '=' in /home7/grannyco/public_html/brentarsenault/beta/control/runner.php on line 10
+[16-Sep-2010 16:49:52] PHP Parse error:  syntax error, unexpected '=' in /home7/grannyco/public_html/brentarsenault/beta/control/runner.php on line 10
